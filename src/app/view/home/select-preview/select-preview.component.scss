@@ -1,0 +1,25 @@
+.home_rigth-side {
+    .chart_ {
+        width: 70px;
+        height: 70px;
+    }
+
+    &_firstPart {
+        min-height: 20rem;
+
+        padding-block: 4rem;
+        border: 1px solid black;
+        border-left: 5px solid #67b0ff;
+    }
+    &_secondPart {
+        border: 1px solid black;
+        min-height: 20rem;
+        padding-block: 4rem;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
